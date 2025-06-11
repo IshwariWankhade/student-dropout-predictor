@@ -23,7 +23,7 @@ This project is an ML-powered Streamlit web app that predicts the likelihood of 
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/YourUsername/student-dropout-predictor.git
+    git clone https://github.com/IshwariWankhade/student-dropout-predictor.git
     cd student-dropout-predictor
     ```
 
@@ -49,6 +49,7 @@ The model was evaluated using a test dataset (20% split). Below are the performa
 ## 🌐 Live Demo
 
 👉 [Click here to view the deployed app](https://student-dropout-predictor-czgvv7gvr8x3kvpir6brbz.streamlit.app/)
+
 
 ## ✍️ Author
 
