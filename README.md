@@ -39,7 +39,7 @@ This project is an ML-powered Streamlit web app that predicts the likelihood of 
 
 ## 🌐 Live Demo
 
-[Click here to view the deployed app on Streamlit Cloud](https://your-deployment-url)
+[Click here to view the deployed app on Streamlit Cloud](https://student-dropout-predictor-czgvv7gvr8x3kvpir6brbz.streamlit.app/)
 
 ## ✍️ Author
 
