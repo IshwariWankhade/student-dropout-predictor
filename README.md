@@ -37,9 +37,18 @@ This project is an ML-powered Streamlit web app that predicts the likelihood of 
     streamlit run app.py
     ```
 
+## 📊 Model Evaluation
+
+The model was evaluated using a test dataset (20% split). Below are the performance metrics:
+
+- **Accuracy:** 89.58%
+- **Precision (Dropout):** 83%
+- **Recall (Dropout):** 68%
+- **F1-score (Dropout):** 75%
+
 ## 🌐 Live Demo
 
-[Click here to view the deployed app on Streamlit Cloud](https://your-deployment-url)
+👉 [Click here to view the deployed app](https://student-dropout-predictor-czgvv7gvr8x3kvpir6brbz.streamlit.app/)
 
 ## ✍️ Author
 
