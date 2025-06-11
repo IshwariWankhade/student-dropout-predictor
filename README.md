@@ -1,28 +1,49 @@
-# 🎓 Student Dropout Prediction using Machine Learning
+# 🎓 Student Dropout Predictor
 
-This project predicts whether a student is likely to drop out based on academic activity, demographics, and behavior. Built for internship submission with full deployment-ready structure and real-world applicability.
+This project is an ML-powered Streamlit web app that predicts the likelihood of a student dropping out based on various features such as academic engagement, parental involvement, and student activity.
 
----
+## 🚀 Features
 
-## 📌 Problem Statement
-
-**Why do students drop out of educational platforms?**  
-This project aims to identify students at risk of dropping out using historical learning behavior data, enabling EdTech platforms or institutions to intervene early.
-
----
+- User-friendly web interface built with Streamlit
+- Predicts student dropout risk: High Risk or Likely to Continue
+- Trained using a dataset from Kaggle (xAPI-Edu-Data)
 
 ## 📊 Dataset
 
-- **Source**: [xAPI-Edu-Data on Kaggle](https://www.kaggle.com/datasets/aljarah/xAPI-Edu-Data)
-- **Size**: 480 records, 17 features
-- **Features include**:
-  - Demographics (Gender, Nationality, etc.)
-  - Academic engagement (VisitedResources, AnnouncementsView, etc.)
-  - Parental involvement (ParentschoolSatisfaction, ParentAnsweringSurvey)
-  - Target column: `Class` (`L`, `M`, `H`) → Converted to Dropout/No Dropout
+- **Source**: [xAPI-Edu-Data - Kaggle](https://www.kaggle.com/datasets/aljarah/xAPI-Edu-Data)
+- **Attributes Used**: Gender, Nationality, Stage, Topic, Semester, Raised Hands, Absence Days, etc.
 
----
+## 🧠 Model
 
-## 🛠️ Project Structure
+- Model trained using **RandomForestClassifier** / **XGBoost**
+- Categorical data encoded using `category` codes
+- Model serialized using `joblib`
+
+## 🛠 How to Run
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/YourUsername/student-dropout-predictor.git
+    cd student-dropout-predictor
+    ```
+
+2. Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. Run the app:
+    ```bash
+    streamlit run app.py
+    ```
+
+## 🌐 Live Demo
+
+[Click here to view the deployed app on Streamlit Cloud](https://your-deployment-url)
+
+## ✍️ Author
+
+- Ishwari Wankhade
+- Email: irwankhade05@gmail.com
 
 
